@@ -1,0 +1,99 @@
+body {
+  font-family: sans-serif;
+  background: #fefefe;
+  color: #333;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.example {
+  background: #eee;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #777;
+  text-align: center;
+}
+
+.chat-ui {
+  background: #e5ddd5;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 400px;
+  margin-bottom: 2rem;
+  font-family: sans-serif;
+}
+
+.bubble {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 6px 0;
+  border-radius: 7px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  max-width: 80%;
+  clear: both;
+  position: relative;
+}
+
+.from-anna {
+  background: #dcf8c6;
+  float: right;
+}
+.from-joan,
+.from-laia,
+.from-pere,
+.from-marta {
+  background: white;
+  float: left;
+}
+
+.name {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.reactions-container {
+  margin-top: 4px;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  clear: both;
+}
+
+.reaction {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2px 6px;
+  font-size: 0.9rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.reaction span {
+  font-size: 1.1rem;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}

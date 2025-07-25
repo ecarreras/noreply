@@ -1,5 +1,7 @@
 # noreply
 
+![](logo.png)
+
 💬 **noreply** is a simple, static website that promotes the use of **emoji reactions** instead of short replies like "Yes", "Me", or "OK" in group chats. It's inspired by projects like [nohello.net](https://nohello.net) — but focused on reducing notification noise in messaging apps.
 
 ---
